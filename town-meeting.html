@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Noto+Serif|Tangerine" rel="stylesheet">
+	<!-- Styling for public area -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="/includes/favicon.ico" />
+	<base href="" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title> Southborough for All </title>
+</head>
+<div class="container">
+  <!-- navbar -->
+  <body>
+  <div class="navbar">
+    <span class="logo_div">
+      <a style="text-decoration: none; text-align: center;"
+      href="./index.html"><h1>Southborough for All</h1></a>
+    </span>
+  </div>
+  <div class="navbar" alt="Southborough Navbar" style="background:white; padding:10px; text-align: center; font-size: 150%;">
+    <span><a href="./about.html">About</a></span> /
+    <span><a href="./index.html">Home</a></span> /
+    <span><a href="./town-meeting.html">Town Meeting - September 30</a></span>
+  </div>
+<div class="content">
+  <div class="post-wrapper">
+    <div class="full-post-div">
+    <h2 class="post-title">All Town Meeting is Monday, September 30</h2>
+    <div class="post-body-div">
+
+      <!--<blockquote>
+          <p>
+              <span style="background-color:transparent;color:#000000;">Text</span>
+          </p>
+      </blockquote>-->
+
+      <p>All registered voters are eligble to vote at the Special Town Meeting on Monday, September 30 at 7pm. If you are interested in hearing more about the Zoning proposals or would like to support Southborough for All, please reach out to James Nichols-Worley <a href="#" onclick="CopyToClipboard('email');return false;"><span id="email">jamesnicholsworley@gmail.com</span></a>.
+			</br></br>You can read more about Southborough's Town Meeting from Southborough's local news source, <a href="https://www.mysouthborough.com/2024/08/02/special-town-meeting-september-30/">MySouthborough.com</a>.
+
+			</p>
+
+    </div>
+    </div>
+  </div>
+</div>
+<!-- footer -->
+<div class="footer">
+  <p>&copy;<?php echo date('Y') . " "; echo $website;?>. All Rights Reserved.</p>
+  <p>Not authorized by any candidate or candidate's committee.</p>
+  <p>Thoughts? Contact Us: <a href="#" onclick="CopyToClipboard('email');return false;"><span id="email">jamesnicholsworley@gmail.com</span></a></p>
+</div>
+<!-- // footer -->
+
+<!-- // container -->
+<script>
+function CopyToClipboard(id)
+{
+var r = document.createRange();
+r.selectNode(document.getElementById(id));
+window.getSelection().removeAllRanges();
+window.getSelection().addRange(r);
+document.execCommand('copy');
+window.getSelection().removeAllRanges();
+}
+</script>
+</body>
+</html>
